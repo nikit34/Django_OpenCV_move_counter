@@ -1,0 +1,4 @@
+/data/**
+/venv/**
+/MoveCounter/db.sqlite3
+/.idea/**

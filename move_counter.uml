@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>Python</ID>
+  <OriginalElement>#/home/permi/source/repos/draft/1/move_counter.py</OriginalElement>
+  <nodes>
+    <node x="127.25" y="737.0">move_counter.Data</node>
+    <node x="123.75000000000003" y="952.0">move_counter.Camera</node>
+    <node x="0.0" y="1167.0">move_counter.Console</node>
+    <node x="227.0" y="1145.0">move_counter.Write</node>
+    <node x="246.0" y="0.0">typing.Hashable</node>
+    <node x="194.0" y="104.0">object</node>
+    <node x="324.25" y="671.0">move_counter.Statistic</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="move_counter.Data" target="object">
+      <point x="0.0" y="-49.5" />
+      <point x="215.75" y="646.0" />
+      <point x="258.0" y="646.0" />
+      <point x="-64.0" y="258.5" />
+    </edge>
+    <edge source="object" target="typing.Hashable">
+      <point x="0.0" y="-258.5" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="move_counter.Camera" target="move_counter.Data">
+      <point x="-2.8421709430404007E-14" y="-71.5" />
+      <point x="0.0" y="49.5" />
+    </edge>
+    <edge source="move_counter.Statistic" target="object">
+      <point x="0.0" y="-115.5" />
+      <point x="428.25" y="646.0" />
+      <point x="386.0" y="646.0" />
+      <point x="64.0" y="258.5" />
+    </edge>
+    <edge source="move_counter.Console" target="move_counter.Camera">
+      <point x="0.0" y="-49.5" />
+      <point x="103.5" y="1120.0" />
+      <point x="169.75000000000003" y="1120.0" />
+      <point x="-46.0" y="71.5" />
+    </edge>
+    <edge source="move_counter.Write" target="move_counter.Camera">
+      <point x="0.0" y="-71.5" />
+      <point x="328.0" y="1120.0" />
+      <point x="261.75" y="1120.0" />
+      <point x="45.99999999999997" y="71.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.4152046783625731" x="266.5" y="545.0" />
+  <SelectedNodes />
+  <Categories />
+</Diagram>
+
